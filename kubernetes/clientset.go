@@ -86,7 +86,6 @@ type Interface interface {
 	AppsV1beta1() appsv1beta1.AppsV1beta1Interface
 	AppsV1beta2() appsv1beta2.AppsV1beta2Interface
 	AuthenticationV1() authenticationv1.AuthenticationV1Interface
-	AuthenticationV1alpha1() authenticationv1alpha1.AuthenticationV1alpha1Interface
 	AuthenticationV1beta1() authenticationv1beta1.AuthenticationV1beta1Interface
 	AuthorizationV1() authorizationv1.AuthorizationV1Interface
 	AuthorizationV1beta1() authorizationv1beta1.AuthorizationV1beta1Interface
