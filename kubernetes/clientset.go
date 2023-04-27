@@ -80,7 +80,6 @@ import (
 type Interface interface {
 	Discovery() discovery.DiscoveryInterface
 	AdmissionregistrationV1() admissionregistrationv1.AdmissionregistrationV1Interface
-	AdmissionregistrationV1alpha1() admissionregistrationv1alpha1.AdmissionregistrationV1alpha1Interface
 	AdmissionregistrationV1beta1() admissionregistrationv1beta1.AdmissionregistrationV1beta1Interface
 	InternalV1alpha1() internalv1alpha1.InternalV1alpha1Interface
 	AppsV1() appsv1.AppsV1Interface
